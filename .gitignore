@@ -1,0 +1,26 @@
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Dataset audio, derived features, and generated outputs
+data/
+raw_data/
+**/wavs/
+**/TextGrid/
+**/*.npy
+**/preprocessed_data/
+English/demo/
+
+# Model and vocoder weights are large; use a release or external link when ready
+*.pth
+*.pth.tar
+*.pth.tar.zip
+*.ckpt
+*.pt
+
+# Local upstream clone is nested Git; source is represented in English/
+upstream/

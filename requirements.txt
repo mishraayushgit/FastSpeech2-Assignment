@@ -1,0 +1,15 @@
+# Install a PyTorch build compatible with your CUDA runtime separately.
+librosa>=0.10
+matplotlib
+numba
+PyYAML
+scikit-learn
+scipy
+soundfile
+tensorboard
+tgt
+tqdm
+Unidecode
+inflect
+g2p-en
+pyworld
