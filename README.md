@@ -12,7 +12,7 @@ This repository contains the FastSpeech 2 reference implementation and the assig
 | Telugu preprocessing | Colab reported 1,045 processed utterances (873 train, 172 validation). The processed features are not present in this repository. |
 | Telugu training | Colab logs reached step 500 / 5,000. Loss decreased from 11.5143 at step 100 to 2.8914 at step 500. No Telugu checkpoint was saved before the runtime reset, so this is not a resumable trained model. |
 | Test audio, variance-adaptor plots, report | Not completed or included. |
-| GitHub publication | Pending repository creation/push. |
+| GitHub publication | Public repository: [mishraayushgit/FastSpeech2-Assignment](https://github.com/mishraayushgit/FastSpeech2-Assignment), branch `main`. |
 
 See [`Telugu/PROGRESS.md`](Telugu/PROGRESS.md) for the recorded Telugu training log and limitations.
 
@@ -45,7 +45,7 @@ The source is based on [ming024/FastSpeech2](https://github.com/ming024/FastSpee
 3. Generate the five English and five Telugu test sentences from the assignment.
 4. Save training/validation loss plots and per-sentence duration, F0, and energy plots.
 5. Write the technical report with data split, preprocessing, training curves, speech observations, limitations, and reproducibility details.
-6. Add the completed artifacts and publish the repository for evaluation.
+6. Add the completed artifacts and push the updates to the public repository for evaluation.
 
 ## References
 
